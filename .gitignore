@@ -2,4 +2,5 @@
 *.pot
 *.pyc
 *.db
+*.keys
 local_settings.py
