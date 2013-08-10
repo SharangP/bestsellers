@@ -7,4 +7,5 @@ with open('nyt/nyt.keys') as f:
     nytkeys = json.load(f)
 
 nyt = NytBestsellerService(nytkeys['key'])
-nyt.GetList('sup')
+results = nyt.GetList('hardcover-fiction')['results']
+print(nyt.LoadListIntoBooks(results))
