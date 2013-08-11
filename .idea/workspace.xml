@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appcode/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appcode/bestsellers/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/appcode/book/Book.py" afterPath="$PROJECT_DIR$/appcode/bestsellers/book/Book.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/appcode/book/__init__.py" afterPath="$PROJECT_DIR$/appcode/bestsellers/book/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/appcode/nyt/NytBestsellerService.py" afterPath="$PROJECT_DIR$/appcode/bestsellers/nyt/NytBestsellerService.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/appcode/nyt/__init__.py" afterPath="$PROJECT_DIR$/appcode/bestsellers/nyt/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcode/getBestSellers.py" afterPath="$PROJECT_DIR$/appcode/getBestSellers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/models.py" afterPath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/bestsellers.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/other.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/testrunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="bestsellers.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
-    <file path="/Dummy.txt" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376189793834" ignored="false" />
+    <file path="/Dummy.txt" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376193171181" ignored="false" />
     <file path="/NytBestsellerService.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376192645505" ignored="false" />
     <file path="/getBestSellers.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376179186556" ignored="false" />
     <file path="/Book.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376177802850" ignored="false" />
@@ -60,7 +62,7 @@
       <file leaf-file-name="NytBestsellerService.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appcode/bestsellers/nyt/NytBestsellerService.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.37604457">
+            <state line="19" column="34" selection-start="739" selection-end="739" vertical-scroll-proportion="0.4296875">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -72,9 +74,7 @@
         <entry file="file://$PROJECT_DIR$/appcode/getBestSellers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,15 +83,6 @@
         <entry file="file://$PROJECT_DIR$/appcode/bestsellers/book/Book.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="88" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,6 +117,7 @@
         <option value="$PROJECT_DIR$/appcode/bestsellers/__init__.py" />
         <option value="$PROJECT_DIR$/appcode/nyt/NytBestsellerService.py" />
         <option value="$PROJECT_DIR$/appcode/bestsellers/nyt/NytBestsellerService.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -233,11 +225,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/appcode/bestsellers/manage.py" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -384,7 +376,11 @@
       <created>1376189797260</created>
       <updated>1376189797260</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ignored .idea/ for real">
+      <created>1376193175304</created>
+      <updated>1376193175304</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -416,7 +412,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6709887" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25455928" sideWeight="0.6709887" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25911853" sideWeight="0.6709887" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25455928" sideWeight="0.28687197" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -473,7 +469,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignored .idea/*" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignored .idea/ for real" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -491,6 +487,7 @@
     <MESSAGE value="added method to get list of lists from nyt, blank dependencies file to keep track of dependencies" />
     <MESSAGE value="added virtualenv, restructured appcode, added django app and initial migration with south" />
     <MESSAGE value="ignored .idea/*" />
+    <MESSAGE value="ignored .idea/ for real" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -498,6 +495,36 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/appcode/bestsellers/nyt/NytBestsellerService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/getBestSellers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/bestsellers/book/Book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="88" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -564,15 +591,20 @@
     <entry file="file://$PROJECT_DIR$/appcode/getBestSellers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.04178273">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appcode/bestsellers/nyt/NytBestsellerService.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.37604457">
+        <state line="19" column="34" selection-start="739" selection-end="739" vertical-scroll-proportion="0.4296875">
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
