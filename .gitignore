@@ -3,5 +3,5 @@
 *.pyc
 *.db
 *.keys
-.idea/*
+.idea/
 local_settings.py
