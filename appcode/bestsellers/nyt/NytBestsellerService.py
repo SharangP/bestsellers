@@ -1,6 +1,12 @@
 import urllib2
 import json
-from book.Book import Book
+from appcode.bestsellers.bestsellers_app.models import Bestseller, BookList
+from appcode.bestsellers.book.Book import Book
+
+#TODO: use Bestseller instead of Book
+#TODO: make two services: BestsellerService and BookListService
+#TODO: move cache + db access methods for list to the second service
+#TODO: one time script/method to load list into db, then just retrieve into cache
 
 
 class NytBestsellerService:
@@ -17,7 +23,7 @@ class NytBestsellerService:
             result = urllib2.urlopen(req)
             lists = json.load(result)["results"]
             for list in lists:
-                listKey = list["list_name"].replace(' ','-').lower()
+                listKey = list["list_name"].replace(' ', '-').lower()
                 self.__listDict__[listKey] = list["display_name"]
         except urllib2.URLError, e:
             print(e)
@@ -28,7 +34,7 @@ class NytBestsellerService:
             isbn = book["book_details"][0]["primary_isbn13"]
             title = book["book_details"][0]["title"]
             author = book["book_details"][0]["author"]
-            bookList.append(Book(isbn,title,author))
+            bookList.append(Book(isbn, title, author))
         return bookList
 
     def GetList(self, listName):
