@@ -17,7 +17,7 @@
     <ignored path="bestsellers.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
-    <file path="/Dummy.txt" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376193171181" ignored="false" />
+    <file path="/Dummy.txt" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376193548891" ignored="false" />
     <file path="/NytBestsellerService.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376192645505" ignored="false" />
     <file path="/getBestSellers.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376179186556" ignored="false" />
     <file path="/Book.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376177802850" ignored="false" />
@@ -380,7 +380,15 @@
       <created>1376193175304</created>
       <updated>1376193175304</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="deleted .idea? i think?">
+      <created>1376193402277</created>
+      <updated>1376193402277</updated>
+    </task>
+    <task id="LOCAL-00007" summary="deleted .idea? i think? again?">
+      <created>1376193551439</created>
+      <updated>1376193551439</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -469,7 +477,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignored .idea/ for real" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted .idea? i think? again?" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -488,6 +496,8 @@
     <MESSAGE value="added virtualenv, restructured appcode, added django app and initial migration with south" />
     <MESSAGE value="ignored .idea/*" />
     <MESSAGE value="ignored .idea/ for real" />
+    <MESSAGE value="deleted .idea? i think?" />
+    <MESSAGE value="deleted .idea? i think? again?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -597,7 +607,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.04178273">
+        <state line="5" column="5" selection-start="35" selection-end="35" vertical-scroll-proportion="0.1953125">
           <folding />
         </state>
       </provider>
