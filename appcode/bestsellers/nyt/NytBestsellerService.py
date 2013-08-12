@@ -8,6 +8,7 @@ from appcode.bestsellers.book.Book import Book
 #TODO: make two services: BestsellerService and BookListService
 #TODO: move cache + db access methods for list to the second service
 #TODO: one time script/method to load list into db, then just retrieve into cache
+#TODO: primary key for bestseller books needs to be title+author+booklist+date? -> multiple column key or hash it
 
 
 class NytBestsellerService:
