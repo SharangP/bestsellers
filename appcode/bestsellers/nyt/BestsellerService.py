@@ -1,8 +1,7 @@
 import urllib2
 import json
 from datetime import datetime
-from appcode.bestsellers.bestsellers_app.models import Bestseller, BookList
-from appcode.bestsellers.book.Book import Book
+from appcode.bestsellers.bestsellers_app.models import Bestseller
 
 #TODO: use Bestseller instead of Book - TEST!!!
 #TODO: make two services: BestsellerService and BookListService
@@ -11,35 +10,12 @@ from appcode.bestsellers.book.Book import Book
 #TODO: primary key for bestseller books needs to be title+author+booklist+date? -> multiple column key or hash it
 
 
-class NytBestsellerService:
+class BestsellerService:
     __baseUrl__ = "http://api.nytimes.com/svc/books/v2/lists/{Date}{ListName}.json?api-key={ApiKey}"
-    __allListsUrl__ = "http://api.nytimes.com/svc/books/v2/lists/names.json?api-key={ApiKey}"
     __listDict__ = {}
 
     def __init__(self, key):
-        self.key = key
-
-    def GetJsonAllBookLists(self):
-        bookLists = []
-        req = self.__allListsUrl__.format(ApiKey=self.key)
-        try:
-            result = urllib2.urlopen(req)
-            lists = json.load(result)["results"]
-
-            for list in lists:
-                listKey = list["list_name"].replace(' ', '-').lower()
-                displayName = list["display_name"]
-                # self.__listDict__[listKey] = list["display_name"]
-
-                bookList = BookList(ListKey=listKey,
-                                    DisplayName=displayName)
-
-                bookLists.append(bookList)
-
-            return bookLists
-
-        except urllib2.URLError, e:
-            print(e)
+        self.__key__ = key
 
     def JsonResultsToBestsellers(self, results):
         bestsellers = []
@@ -66,9 +42,11 @@ class NytBestsellerService:
         return bestsellers
 
     def GetJsonList(self, listName):
-        req = self.__baseUrl__.format(Date="", ListName=listName, ApiKey=self.key)
+        req = self.__baseUrl__.format(Date="", ListName=listName, ApiKey=self.__key__)
         try:
             result = urllib2.urlopen(req)
             return json.load(result)
         except urllib2.URLError, e:
             print(e)
+
+
