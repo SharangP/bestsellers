@@ -1,9 +1,10 @@
 import json
-from appcode.bestsellers.nyt import BestsellerService, BookListService
 
 
 #load api keys
-with open('bestsellers/nyt/nyt.keys') as f:
+from appcode.bestsellers.bestsellers_app.nyt import BookListService, BestsellerService
+
+with open('bestsellers/bestsellers_app/nyt/nyt.keys') as f:
     nytkeys = json.load(f)
 
 bestsellerService = BestsellerService(nytkeys['key'])

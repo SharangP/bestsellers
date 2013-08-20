@@ -4,8 +4,6 @@ from datetime import datetime
 from appcode.bestsellers.bestsellers_app.models import Bestseller
 
 #TODO: use Bestseller instead of Book - TEST!!!
-#TODO: make two services: BestsellerService and BookListService
-#TODO: move cache + db access methods for list to the second service
 #TODO: one time script/method to load list into db, then just retrieve into cache
 #TODO: primary key for bestseller books needs to be title+author+booklist+date? -> multiple column key or hash it
 
@@ -48,5 +46,3 @@ class BestsellerService:
             return json.load(result)
         except urllib2.URLError, e:
             print(e)
-
-
