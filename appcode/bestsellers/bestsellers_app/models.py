@@ -3,11 +3,11 @@ from django.db import models
 
 # Bestseller model
 class Bestseller(models.Model):
-    Title = models.TextField
+    Title = models.TextField()
     Author = models.CharField(max_length=255)
     Isbn = models.CharField(max_length=13)
     ImageUrl = models.URLField(max_length=255)
-    BestsellerDate = models.DateField
+    BestsellerDate = models.DateField()
     Rank = models.IntegerField(default=-1)
     BookList = models.ForeignKey('BookList')
 
@@ -19,7 +19,7 @@ class Bestseller(models.Model):
 
 # BookList model
 class BookList(models.Model):
-    ListKey = models.SlugField
+    ListKey = models.SlugField()
     DisplayName = models.CharField(max_length=255)
 
     def __unicode__(self):
