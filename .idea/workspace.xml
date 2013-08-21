@@ -2,40 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devenv/lib/python2.7/site-packages/mock-1.0.1-py2.7.egg-info/PKG-INFO" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devenv/lib/python2.7/site-packages/mock-1.0.1-py2.7.egg-info/SOURCES.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devenv/lib/python2.7/site-packages/mock-1.0.1-py2.7.egg-info/dependency_links.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devenv/lib/python2.7/site-packages/mock-1.0.1-py2.7.egg-info/installed-files.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devenv/lib/python2.7/site-packages/mock.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests/tests_BookListService.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devenv/lib/python2.7/site-packages/mock-1.0.1-py2.7.egg-info/top_level.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/appcode/bestsellers/book/Book.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/appcode/bestsellers/nyt/__init__.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/appcode/bestsellers/book/__init__.py" afterPath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/appcode/bestsellers/nyt/BestsellerService.py" afterPath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BestsellerService.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/appcode/bestsellers/nyt/BookListService.py" afterPath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BookListService.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcode/getBestSellers.py" afterPath="$PROJECT_DIR$/appcode/getBestSellers.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcode/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcode/bestsellers/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appcode/getBestSellers.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BestsellerService.py" afterPath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BestsellerService.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BookListService.py" afterPath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BookListService.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bestsellers.iml" afterPath="$PROJECT_DIR$/.idea/bestsellers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests/tests_BookListService.py" afterPath="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests/tests_BookListService.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bestsellers.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
-    <file path="/Dummy.txt" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376958877379" ignored="false" />
+    <file path="/Dummy.txt" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377037350273" ignored="false" />
     <file path="/NytBestsellerService.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376277036568" ignored="false" />
     <file path="/getBestSellers.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376957855269" ignored="false" />
     <file path="/Book.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376177802850" ignored="false" />
-    <file path="/settings.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376183728481" ignored="false" />
+    <file path="/settings.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377052619738" ignored="false" />
     <file path="/Django default" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376184069868" ignored="false" />
     <file path="/models.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376956333592" ignored="false" />
-    <file path="/BestsellerService.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1376957630288" ignored="false" />
+    <file path="/BestsellerService.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377051232985" ignored="false" />
     <file path="/test_BookListService.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377030544284" ignored="false" />
     <file path="/mocktest" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377030306771" ignored="false" />
     <file path="/a.dummy" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377030924544" ignored="false" />
     <file path="/tests.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377034749191" ignored="false" />
     <file path="/__init__.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377037192309" ignored="false" />
-    <file path="/tests_BookListService.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377037312131" ignored="false" />
+    <file path="/tests_BookListService.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377053464009" ignored="false" />
+    <file path="/BookListService.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377054090081" ignored="false" />
+    <file path="$PROJECT_DIR$/appcode/bestsellers/conftest.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377053070575" ignored="false" />
+    <file path="/start_script.py" changelist="934ba1d0-dd84-488a-a5e8-5e37aa3ba87e" time="1377055012579" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,50 +56,58 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BestsellerService.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BestsellerService.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="20" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookListService.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BookListService.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="26" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getBestSellers.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appcode/getBestSellers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests_BookListService.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests/tests_BookListService.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="283" selection-end="283" vertical-scroll-proportion="0.35714287">
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.50090253">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="BestsellerService.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BestsellerService.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="47" column="11" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="e#0#14#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tests_BookListService.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests/tests_BookListService.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="26" selection-start="266" selection-end="266" vertical-scroll-proportion="0.3046683">
+                  <folding>
+                    <element signature="e#0#14#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BookListService.py" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BookListService.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.11056511">
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -123,10 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/nyt/NytBestsellerService.py" />
-        <option value="$PROJECT_DIR$/appcode/bestsellers/bestsellers/settings.py" />
-        <option value="db-console:/8ee469e7/f0e89979-a3f5-49d7-8f60-d5fed01b62ff/" />
-        <option value="$PROJECT_DIR$/appcode/bestsellers/__init__.py" />
         <option value="$PROJECT_DIR$/appcode/nyt/NytBestsellerService.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/appcode/bestsellers/nyt/NytBestsellerService.py" />
@@ -138,7 +137,11 @@
         <option value="$PROJECT_DIR$/appcode/bestsellers/nyt/tests/test_BookListService.py" />
         <option value="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests.py" />
         <option value="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests/__init__.py" />
+        <option value="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BestsellerService.py" />
+        <option value="$PROJECT_DIR$/appcode/bestsellers/bestsellers/settings.py" />
+        <option value="$PROJECT_DIR$/appcode/bestsellers/conftest.py" />
         <option value="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests/tests_BookListService.py" />
+        <option value="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BookListService.py" />
       </list>
     </option>
   </component>
@@ -147,6 +150,20 @@
     <option name="y" value="-4" />
     <option name="width" value="1368" />
     <option name="height" value="773" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Django</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -247,32 +264,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bestsellers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bestsellers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bestsellers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bestsellers_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -281,8 +272,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/appcode/bestsellers/manage.py" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/appcode/bestsellers/bestsellers/settings.py" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -292,7 +283,10 @@
       <PyConsoleSettings />
     </option>
     <option name="myDjangoConsoleState">
-      <PyConsoleSettings />
+      <PyConsoleSettings>
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="bestsellers" />
+      </PyConsoleSettings>
     </option>
   </component>
   <component name="RecentsManager">
@@ -304,7 +298,7 @@
       <recent name="$PROJECT_DIR$/devenv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.getBestSellers">
+  <component name="RunManager" selected="Python.BookListService">
     <configuration default="false" name="getBestSellers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,6 +317,25 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BookListService" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bestsellers" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BookListService.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -406,13 +419,15 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.getBestSellers" />
+      <item index="1" class="java.lang.String" itemvalue="Python.BookListService" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.getBestSellers" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.BookListService" />
         <item index="1" class="java.lang.String" itemvalue="Python.getBestSellers" />
+        <item index="2" class="java.lang.String" itemvalue="Python.getBestSellers" />
       </list>
     </recent_temporary>
   </component>
@@ -492,7 +507,11 @@
       <created>1376958879369</created>
       <updated>1376958879369</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="organized tests into correct structure">
+      <created>1377037384001</created>
+      <updated>1377037384002</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -525,7 +544,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6709887" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23404256" sideWeight="0.7293355" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15729484" sideWeight="0.7293355" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25455928" sideWeight="0.28687197" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -581,7 +600,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="migrated model changes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="organized tests into correct structure" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -606,10 +625,18 @@
     <MESSAGE value="added a todo. that is all." />
     <MESSAGE value="separated Bestseller and BookList services" />
     <MESSAGE value="migrated model changes&#10;" />
+    <MESSAGE value="organized tests into correct structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests/tests_BookListService.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -636,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="180" selection-end="187" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python2.7/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="233" column="8" selection-start="7711" selection-end="7711" vertical-scroll-proportion="-1.0595238">
@@ -657,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.20891365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/devenv/lib/python2.7/site-packages/mock-1.0.1-py2.7.egg-info/installed-files.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -671,48 +684,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/bestsellers/__init__.py">
+    <entry file="file://$PROJECT_DIR$/devenv/local/lib/python2.7/site-packages/django/core/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="53" column="6" selection-start="983" selection-end="983" vertical-scroll-proportion="0.3321976">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BestsellerService.py">
+    <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="20" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BookListService.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="26" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appcode/getBestSellers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="0" selection-end="113" vertical-scroll-proportion="0.16713092">
+        <state line="4" column="4" selection-start="35" selection-end="35" vertical-scroll-proportion="0.1734104">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BookListService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.11056511">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/nyt/BestsellerService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="11" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appcode/bestsellers/bestsellers_app/tests/tests_BookListService.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="283" selection-end="283" vertical-scroll-proportion="0.35714287">
+        <state line="10" column="26" selection-start="266" selection-end="266" vertical-scroll-proportion="0.3046683">
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>

@@ -1,7 +1,6 @@
 import json
 import urllib2
-from appcode.bestsellers.bestsellers_app.models import BookList
-from django.core.exceptions import ValidationError
+from bestsellers_app.models import BookList
 
 
 class BookListService:
@@ -14,38 +13,47 @@ class BookListService:
     def GetJsonAllBookLists(self):
         """
         Fetches all booklists from NYT api
-
-        :return: list<bookList>
+        :return: JSON results
         """
-        bookLists = []
+        results = []
         req = self.__allListsUrl__.format(ApiKey=self.__key__)
         try:
-            result = urllib2.urlopen(req)
-            bookLists = json.load(result)["results"]
-
-            for bookList in bookLists:
-                listKey = bookList["list_name"].replace(' ', '-').lower()
-                displayName = bookList["display_name"]
-                # self.__listDict__[listKey] = list["display_name"]
-
-                bookList = BookList(ListKey=listKey,
-                                    DisplayName=displayName)
-
-                bookLists.append(bookList)
-
-            return bookLists
-
+            jsonResponse = urllib2.urlopen(req)
+            results = json.load(jsonResponse)["results"]
         except urllib2.URLError, e:
             print(e)
+            return results
+
+    def ParseJsonAllBookLists(self, bookLists):
+        """
+        Parses JSON list of all book lists into list of BookList
+        :param bookLists Json list of all book lists from NYT api
+        :return: list<bookList>
+        """
+        parsedBookLists = []
+        for bookList in bookLists:
+            listKey = bookList["list_name"].replace(' ', '-').lower()
+            displayName = bookList["display_name"]
+            parsedBookLists.append(BookList(ListKey=listKey,DisplayName=displayName))
+        return parsedBookLists
 
     def BulkSaveBookLists(self, bookLists):
         for bookList in bookLists:
             try:
                 BookList.objects.get_or_create(ListKey=bookList.ListKey,
                                                DisplayName=bookList.DisplayName)
-            except ValidationError, e:
+            except Exception as e:
                 print(e)
+                raise e
 
     def LoadBookListCache(self):
         for bookList in BookList.objects.all():
             self.BookListCache[bookList.ListKey] = bookList.DisplayName
+
+    def RefreshCache(self):
+        jsonResults = self.GetJsonAllBookLists()
+        parsedResults = self.ParseJsonAllBookLists(jsonResults)
+        if parsedResults:
+            self.BulkSaveBookLists(parsedResults)
+        if parsedResults and not self.BookListCache:
+            self.LoadBookListCache()

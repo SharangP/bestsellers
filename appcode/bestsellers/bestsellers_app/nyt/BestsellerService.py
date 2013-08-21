@@ -15,11 +15,16 @@ class BestsellerService:
     def __init__(self, key):
         self.__key__ = key
 
-    def JsonResultsToBestsellers(self, results):
+    def ParseJsonBestsellersByList(self, listResult):
+        """
+        Parses json bestseller list into list of Bestseller
+        :param listResult: JSON bestseller list from NYT api
+        :return: list<Bestseller>
+        """
         bestsellers = []
-        bookListName = Bestseller.objects.get_or_create(ListKey=results["list_name"])
+        bookListName = Bestseller.objects.get(ListKey=listResult["list_name"])
 
-        for book in results:
+        for book in listResult:
             title = book["book_details"][0]["title"]
             author = book["book_details"][0]["author"]
             isbn = book["book_details"][0]["primary_isbn13"]
@@ -39,8 +44,13 @@ class BestsellerService:
 
         return bestsellers
 
-    def GetJsonList(self, listName):
-        req = self.__baseUrl__.format(Date="", ListName=listName, ApiKey=self.__key__)
+    def GetJsonBestsellersByList(self, listKey):
+        """
+        Gets bestsellers for book list from NYT api
+        :param listKey: key of book list
+        :return: JSON result
+        """
+        req = self.__baseUrl__.format(Date="", ListName=listKey, ApiKey=self.__key__)
         try:
             result = urllib2.urlopen(req)
             return json.load(result)
