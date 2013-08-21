@@ -16,19 +16,26 @@ class BookListService:
         :return: JSON results
         """
         results = []
-        req = self.__allListsUrl__.format(ApiKey=self.__key__)
+        url = self.__allListsUrl__.format(ApiKey=self.__key__)
         try:
+            hdr = {
+                'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+            }
+            req = urllib2.Request(url, headers=hdr)
             jsonResponse = urllib2.urlopen(req)
             results = json.load(jsonResponse)["results"]
+            return results
+            urllib2.urlopen()
         except urllib2.URLError, e:
-            print(e)
+            # print(e.fp.read())
             return results
 
     def ParseJsonAllBookLists(self, bookLists):
         """
         Parses JSON list of all book lists into list of BookList
         :param bookLists Json list of all book lists from NYT api
-        :return: list<bookList>
+        :return: [BookList]
         """
         parsedBookLists = []
         for bookList in bookLists:

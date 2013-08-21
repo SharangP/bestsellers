@@ -19,7 +19,7 @@ class BestsellerService:
         """
         Parses json bestseller list into list of Bestseller
         :param listResult: JSON bestseller list from NYT api
-        :return: list<Bestseller>
+        :return: [Bestseller]
         """
         bestsellers = []
         bookListName = Bestseller.objects.get(ListKey=listResult["list_name"])
